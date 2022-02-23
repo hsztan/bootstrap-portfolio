@@ -364,7 +364,7 @@
           </div>
         </div>
         <hr class="separator w-70 bg-light" style="margin-top: 130px" />
-        <div class="row" style="margin-top: 130px">
+        <div class="row ms-1" style="margin-top: 130px">
           <div class="col-lg-4 text-white">
             <h3>Language</h3>
             <ul class="list-group">
@@ -425,7 +425,34 @@
         </div>
       </div>
     </section>
-    <section class="contact-me"></section>
+    <section class="container contact-me">
+        <div class="row" style="padding:130px 135px;">
+            <div class="col lg-5">
+                <h3>I'm always interested in hearing about new projects, 
+                    so if you'd like to chat please get in touch.
+                </h3>
+            </div>
+            <div class="col lg-7">
+                <form action="#" method="post">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control border-0 border-bottom" id="first-name" name="first-name" placeholder="First Name" required>
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control border-0 border-bottom" id="last-name" name="last-name" placeholder="Last Name" required>
+                        </div>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <input type="email" class="form-control border-0 border-bottom" placeholder="Enter email" name="email" required>
+                    </div>
+                    <div class="mb-3 mt-3">
+                        <textarea class="form-control border-0 bg-light" name="comment" id="comment" placeholder="Enter Your Message" required></textarea>
+                    </div>
+                    <button class="btn btn-warning text-white" type="submit">Get in touch</button>
+                </form>
+            </div>
+        </div>
+    </section>
     <footer class="social"></footer>
     <!-- bootstrap CDN script -->
     <script
