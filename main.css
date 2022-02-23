@@ -1,0 +1,12 @@
+.header {
+  background-image: url(./assets/images/Illustration-header.png);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: right 0 top 0;
+}
+
+.about-me {
+  background-image: url('./assets/images/about-me-back.png');
+  background-repeat: no-repeat;
+  background-position: right 0 top 90px;
+}
